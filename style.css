@@ -14,12 +14,14 @@ body {
 .tela{
     width: 500px;
     height: 320px;
-    background: linear-gradient(to right, #E8E8E8, #C1C1C1) ;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    border: 2px solid #555;
 }
 
 .teclado--linha{
     display:flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .teclado--botao{
@@ -40,3 +42,24 @@ body {
     background-color: #403A3A;
     margin-left:30px;
 }
+
+.botao--branco{
+    background-color: white;
+    color: #000000;
+    font-size: 15px;
+}
+
+.botao--corrige{
+    background-color: #F09046;
+    color: #000000;
+    font-size: 15px;
+}
+
+.botao--confirma{
+    background-color: #48C079;
+    color: #000000;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+}
+
