@@ -175,6 +175,7 @@ body {
 .aviso--gigante {
     font-size: 70px;
     font-weight: bold;
+    text-align: center;
     flex:1;
     display:flex;
     justify-content: center;

@@ -124,7 +124,7 @@ const confirma = () => {
             aviso.style.display = 'none';
             lateral.innerHTML = "";
             numeros.innerHTML = ''
-            descricao.innerHTML = '<div class="aviso--gigante pisca center">FIM</div>'
+            descricao.innerHTML = '<div class="aviso--gigante">FIM</div>'
 
         }
     }
