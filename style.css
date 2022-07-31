@@ -67,10 +67,21 @@ body {
 
 .d-1{
     flex: 1;
+    display: flex;
+}
+
+.d-1-left{
+    flex:1;
 
 }
+.d-1-right{
+    width: 90px;
+}
+
+
 .d-2{
     height: 50px;
     font-size: 15px;
     border-top: 2px solid #000000;
+    padding-left: 10px;
 }
